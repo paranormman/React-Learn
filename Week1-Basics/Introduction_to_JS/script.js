@@ -36,12 +36,12 @@
 // const avg = scienceMarks + mathsMarks + socialMarks + englishMarks;
 // console.log("Average Marks : " + avg); 
 
-var Number1 = prompt("Enter your first Integer");
-var Number2 = prompt("Enter your second integer");
-// var Num1 = parseInt(Number1);
+// var Number1 = prompt("Enter your first Integer");
+// var Number2 = prompt("Enter your second integer");
+// // var Num1 = parseInt(Number1);
 // var Num2 = parseInt(Number2);
-var sum = Number1 + Number2;
-var difference = Number1 - Number2;
+// var sum = Number1 + Number2;
+// var difference = Number1 - Number2;
 // var product = Num1 * Num2;
 // var quotient = Num1 / Num2;
 // document.writeln(Number1 + "+" + Number2 + "=" + sum + "<BR>");
@@ -86,3 +86,10 @@ var difference = Number1 - Number2;
 // const y = Boolean(x);
 // console.log(y);
 // console.log(typeof y);
+
+// let z = "Manoj";  //let can be used when the variable is mutable
+// console.log(z);
+
+// const x = "Shivam"; //constant is used when the variable is immutable
+// x = "Narayan";
+// console.log(x);

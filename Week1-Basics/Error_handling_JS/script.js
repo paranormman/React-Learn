@@ -11,7 +11,7 @@
 // throw new Error('pass any message, msg');
 // console.log(a);
 
-/* Handling Exception using ry-catch-finally */
+/* Handling Exception using try-catch-finally */
 
 try{
     console.log(age);
