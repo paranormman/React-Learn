@@ -93,3 +93,31 @@
 // const x = "Shivam"; //constant is used when the variable is immutable
 // x = "Narayan";
 // console.log(x);
+
+// const x = 7;
+// const y = "7";
+// console.log(x === y); // "===" used to compare if both the value and type are the same
+
+// Ternary operation
+
+// const z = x == -7 ? "Hello World it's 7" : "Sorry boys my BAD";
+// console.log(z);
+
+// Program to calculate BMI
+let height = prompt("Enter the Height in Meters");
+let weight = prompt("Enter the Weight in Kilograms");
+let bmi = Math.round((weight)/(height ** 2));
+console.log("BMI of the given user is : " + bmi)
+// Switch case will not work as it only compares the values explicitly (===) with value and type.
+if(bmi < 18.5){
+    console.log("You are underweight Eat UP!!");
+}else if (bmi > 18.5 && bmi < 24.9){
+    console.log("You have a normal weight, Keep working out!!");
+}else if (bmi > 24.9) {
+    console.log("You Fat Ass go work out You are Overweight!!");
+}
+
+// Program to convert CM to M
+// var number = prompt("Enter a number in CM");
+// let x = (number)/(100);
+// console.log("The conversion of " + number + " from cm to m is " + x);
